@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td:hover {
+    background-color: #ddd;
+    ;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+.month-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.main-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.week-ends {
+    color: red;
+}
